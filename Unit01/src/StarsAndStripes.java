@@ -1,10 +1,10 @@
 //© A+ Computer Science
 //www.apluscompsci.com
 
-//Name -
-//Date -
-//Class -
-//Lab  -
+//Name - Jessica Li
+//Date - 2/1/19
+//Class - P 2
+//Lab  - StarsAndStripes
 
 import static java.lang.System.*;
 
