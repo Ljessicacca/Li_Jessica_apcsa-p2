@@ -28,8 +28,8 @@ public class StarsAndStripes
 
    public void printTwoBlankLines()
    {
-	   System.out.println();
-	   System.out.println();
+	   System.out.println("\n");
+	   System.out.println("\n");
    }
    
    public void printASmallBox()
@@ -40,7 +40,7 @@ public class StarsAndStripes
 	   printTwentyStars();
 	   printTwentyDashes();
 	   printTwentyStars();
-	   
+	   printTwentyDashes();
    }
  
    public void printABigBox()
