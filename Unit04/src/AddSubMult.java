@@ -13,11 +13,17 @@ public class AddSubMult
 	public static double check( double a, double b )
 	{
 		if (a > b)
+		{
 			return a-b;
+		}
 		if (b > a)
+		{
 			return b-a;
+		}
 		else 
+		{
 			return a * b;
+		}
 		//must always return something; use this or return 0; 
 	}
 }

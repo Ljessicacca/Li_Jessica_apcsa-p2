@@ -24,7 +24,7 @@ public class Discount
 		}
 		else
 		{
-			return 0;
+			return bill;
 		}
 	}
 }
