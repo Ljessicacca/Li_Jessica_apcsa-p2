@@ -1,6 +1,9 @@
 //(c) A+ Computer Science
 //www.apluscompsci.com
-//Name -
+//Name -Jessica Li 
+//Date - 2/5/19
+//Class - P2
+//Lab  - Add Subtract Mult
 
 import static java.lang.System.*; 
 import java.util.Scanner;
