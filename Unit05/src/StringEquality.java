@@ -1,10 +1,10 @@
 //(c) A+ Computer Science
 //www.apluscompsci.com
 
-//Name -
-//Date -
-//Class -
-//Lab  -
+//Name - Jessica Li 
+//Date - 2/7/19
+//Class - p2
+//Lab  - Str equality 
 
 import static java.lang.System.*;
 
