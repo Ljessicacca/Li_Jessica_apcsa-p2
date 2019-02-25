@@ -9,46 +9,47 @@ public class RayOddToEven
 	{
 		int oddIndex = 0;
 		int evenIndex = 0;
-		int indexOn = 0; 
+		int i = 0; 
 		
-		while (oddIndex == 0)
+		while (i < ray.length - 1) 
 		{
-			if (ray[indexOn] % 2 != 0)
+			if ((ray[i] % 2 != 0) && (oddIndex == 0))
 			{
-				oddIndex = indexOn;
-				if (indexOn < ray.length -1)
+				oddIndex = i; 
+				i++;
+				break;
+			}
+			else
+			{
+				if (oddIndex == 0)
 				{
-					indexOn ++;
-					break;
+					i++;
+				}
+			}
+		}
+		
+		while (i < ray.length - 1) 
+		{
+			if ((ray[i] % 2 == 0) && (evenIndex == 0))
+			{
+				evenIndex = i;
+				i++;
+			}
+			else
+			{
+				if (evenIndex == 0)
+				{
+					i++;
 				}
 				else
 				{
-					if (indexOn < ray.length -1)
-					{
-						indexOn ++;
-					}
-				}
-			} 
-		}
-		while (evenIndex == 0)
-		{
-			if (ray[indexOn] % 2 != 0)
-			{
-				evenIndex = indexOn;
-				if (indexOn < ray.length -1)
-				{
-					indexOn ++;
+					i++;
+					//System.out.println("The value of evenindex is " + evenIndex);
 					break;
 				}
-				else
-				{
-					if (indexOn < ray.length -1)
-					{
-						indexOn ++;
-					}
-				}
-			} 
+			}
 		}
+		
 		if (evenIndex-oddIndex != 0)
 		{
 			return evenIndex-oddIndex;
