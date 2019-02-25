@@ -21,10 +21,7 @@ public class RayOddToEven
 			}
 			else
 			{
-				if (oddIndex == 0)
-				{
-					i++;
-				}
+				i++;
 			}
 		}
 		
@@ -34,19 +31,11 @@ public class RayOddToEven
 			{
 				evenIndex = i;
 				i++;
+				break;
 			}
 			else
 			{
-				if (evenIndex == 0)
-				{
-					i++;
-				}
-				else
-				{
-					i++;
-					//System.out.println("The value of evenindex is " + evenIndex);
-					break;
-				}
+				i++;
 			}
 		}
 		
