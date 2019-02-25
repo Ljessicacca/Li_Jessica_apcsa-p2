@@ -1,7 +1,7 @@
 //(c) A+ Computer Science
 //www.apluscompsci.com
-//Name -
-//Date -
+//Name - Jessica Li
+//Date - 2/22/19
 
 public class OddToEvenRunner
 {

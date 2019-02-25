@@ -1,7 +1,7 @@
 //(c) A+ Computer Science
 //www.apluscompsci.com
-//Name -
-//Date -
+//Name -Jessica Li
+//Date -2/20/19
 
 public class SumLastRunner
 {
