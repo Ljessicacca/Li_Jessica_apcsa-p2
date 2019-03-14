@@ -50,7 +50,7 @@ class Rational implements Comparable<Rational>
 		numerator = numerator * other.getDenominator() + other.getDenominator() * denominator; 
 		denominator = denominator * other.getDenominator();
 
-		reduce();
+		this.reduce();
 	}
 
 	private void reduce()
@@ -63,7 +63,7 @@ class Rational implements Comparable<Rational>
 
 	private int gcd(int numOne, int numTwo)
 	{
-		int maximum = 0;
+		int maximum = 1;
 		for (int i = 1; i < numOne; i++)
 		{
 			if (numOne%i == 0 && numTwo%i == 0)
@@ -86,11 +86,13 @@ class Rational implements Comparable<Rational>
 	
 	public int getNumerator()
 	{
+		this.reduce();
 		return numerator;
 	}
 	
 	public int getDenominator()
 	{
+		this.reduce();
 		return denominator;
 	}
 	
